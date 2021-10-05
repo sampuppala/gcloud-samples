@@ -1,0 +1,13 @@
+[debug] Packaging C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\word-test_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	com
+[debug] 	  C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes\com
+[debug] 	com\word
+[debug] 	  C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes\com\word
+[debug] 	com\word\test
+[debug] 	  C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes\com\word\test
+[debug] 	com\word\test\Word$.class
+[debug] 	  C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes\com\word\test\Word$.class
+[debug] 	com\word\test\Word.class
+[debug] 	  C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes\com\word\test\Word.class
+[debug] Done packaging.

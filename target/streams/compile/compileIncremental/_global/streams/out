@@ -1,0 +1,20 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/word/test/Word.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/word/test/Word.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.3:compile for Scala 2.13.6
+[debug] [zinc] Running cached compiler 4dfd88c2 for Scala compiler version 2.13.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Java8\jdk\jre\lib\resources.jar;C:\Java8\jdk\jre\lib\rt.jar;C:\Java8\jdk\jre\lib\sunrsasign.jar;C:\Java8\jdk\jre\lib\jsse.jar;C:\Java8\jdk\jre\lib\jce.jar;C:\Java8\jdk\jre\lib\charsets.jar;C:\Java8\jdk\jre\lib\jfr.jar;C:\Java8\jdk\jre\classes;C:\Users\sammy\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[debug] 	-classpath
+[debug] 	C:\Users\sammy\eclipse-workspace\word-test\target\scala-2.13\classes
+[debug] Scala compilation took 10.7945483 s
+[info] done compiling

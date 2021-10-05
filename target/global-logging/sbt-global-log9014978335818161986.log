@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\sammy\AppData\Local\Temp\idea9.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\sammy\AppData\Local\Temp\idea9.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_151)
+[debug]       Load.loadUnit: plugins took 292.4602ms
+[debug]       Load.loadUnit: defsScala took 0.5746ms
+[debug] [Loading] Scanning directory C:\Users\sammy\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sammy\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 40.1506 ms
+[debug]           Load.resolveProject(global-plugins) took 69.1522ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\sammy\.sbt\1.0\plugins, plugins: List(<none>))) took 153.8843ms
+[debug] [Loading] Done in C:\Users\sammy\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 201.0014ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3196ms
+[debug]     Load.loadUnit(file:/C:/Users/sammy/.sbt/1.0/plugins/, ...) took 513.4992ms
+[debug]   Load.apply: load took 12565.3321ms
+[debug]   Load.apply: resolveProjects took 28.4129ms
+[debug]   Load.apply: finalTransforms took 240.2286ms
+[debug]   Load.apply: config.delegates took 30.2063ms
+[debug]   Load.apply: Def.make(settings)... took 2504.3069ms
+[debug]   Load.apply: structureIndex took 176.6689ms
+[debug]   Load.apply: mkStreams took 2.6157ms
+[info] loading global plugins from C:\Users\sammy\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 21809.4725ms
+[debug]           Load.loadUnit: plugins took 46.5464ms
+[debug]           Load.loadUnit: defsScala took 0.0064ms
+[debug] [Loading] Scanning directory C:\Users\sammy\eclipse-workspace\word-test\project
+[debug]             Load.loadUnit: mkEval took 15.0616ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sammy\eclipse-workspace\word-test\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.4243 ms
+[info] loading settings for project word-test-build from idea9.sbt ...
+[debug]               Load.resolveProject(word-test-build) took 13.595ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id word-test-build, base: C:\Users\sammy\eclipse-workspace\word-test\project, plugins: List(<none>))) took 21.2987ms
+[debug] [Loading] Done in C:\Users\sammy\eclipse-workspace\word-test\project, returning: (word-test-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 513.0529ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.9487ms
+[debug]         Load.loadUnit(file:/C:/Users/sammy/eclipse-workspace/word-test/project/, ...) took 569.8715ms
+[debug]       Load.apply: load took 574.0526ms
+[debug]       Load.apply: resolveProjects took 0.1542ms
+[debug]       Load.apply: finalTransforms took 17.6446ms
+[debug]       Load.apply: config.delegates took 0.5542ms
+[debug]       Load.apply: Def.make(settings)... took 196.5845ms
+[debug]       Load.apply: structureIndex took 116.9016ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from C:\Users\sammy\eclipse-workspace\word-test\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2060.151ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\sammy\eclipse-workspace\word-test
+[debug]       Load.loadUnit: mkEval took 1.6073ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sammy\eclipse-workspace\word-test, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.2735 ms
+[info] loading settings for project word-test from build.sbt ...
+[debug]         Load.resolveProject(word-test) took 51.1248ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id word-test, base: C:\Users\sammy\eclipse-workspace\word-test, plugins: List(<none>))) took 57.3426ms
+[debug] [Loading] Done in C:\Users\sammy\eclipse-workspace\word-test, returning: (word-test)
+[debug]     Load.loadUnit: loadedProjectsRaw took 138.3584ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.7678ms
+[debug]   Load.loadUnit(file:/C:/Users/sammy/eclipse-workspace/word-test/, ...) took 2208.9737ms
+[debug] Load.apply: load took 2211.6461ms
+[debug] Load.apply: resolveProjects took 0.151ms
+[debug] Load.apply: finalTransforms took 52.1456ms
+[debug] Load.apply: config.delegates took 0.5288ms
+[debug] Load.apply: Def.make(settings)... took 148.5845ms
+[debug] Load.apply: structureIndex took 32.5135ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to word-test (in build file:/C:/Users/sammy/eclipse-workspace/word-test/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54431 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54431, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to word-test (in build file:/C:/Users/sammy/eclipse-workspace/word-test/)
+[debug] > Exec(idea-shell, None, None)
